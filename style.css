@@ -252,10 +252,7 @@ header{
 .course__info{
     padding: 2rem;
 }
-.course__info video{
-    height: 40px;
-    width:40px;
-}
+
 .course__info p{
     margin: 1.2rem 0 2rem;
     font-size:0.9rem;
