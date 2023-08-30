@@ -264,6 +264,7 @@ header{
     position: relative;
 }
 .animate-img{
+    height:400px;
     position: absolute;
     /* left: -100%; */
     animation: slide-in 5s ease;
