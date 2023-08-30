@@ -259,23 +259,6 @@ header{
 }
 .course__image{
     height: 400px;
-    object-fit: fill;
-    overflow: hidden;
-    position: relative;
-}
-.animate-img{
-    height:400px;
-    position: absolute;
-    /* left: -100%; */
-    animation: slide-in 5s ease;
-}
-@keyframes slide-in{
-    0%{
-        left: -100%;
-    }
-    100%{
-        left: 0;
-    }
 }
 
 /* faq */
