@@ -266,7 +266,7 @@ header{
 .animate-img{
     position: absolute;
     /* left: -100%; */
-    animation: slide-in 1s ease;
+    animation: slide-in 5s ease;
 }
 @keyframes slide-in{
     0%{
