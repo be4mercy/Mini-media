@@ -135,7 +135,7 @@ nav button{
 /* change navbar style */
 .window-scroll{
     background: var(--color-primary);
-    box-shadow: 0 1rem 2rem rgb(0, 0,0.1);
+    box-shadow: 0 1rem 1rem rgb(0, 0,0.1);
 }
 
 /* heder */
