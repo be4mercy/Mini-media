@@ -135,7 +135,7 @@ nav button{
 /* change navbar style */
 .window-scroll{
     background: var(--color-primary);
-    box-shadow: 0 2px 2px rgb(0, 0,0.1);
+    box-shadow: 0 1rem 1rem rgb(209, 209, 209);
 }
 
 /* heder */
@@ -257,8 +257,24 @@ header{
     margin: 1.2rem 0 2rem;
     font-size:0.9rem;
 }
-.course__image img{
-    height:400px;
+.course__image{
+    height: 400px;
+    object-fit: fill;
+    overflow: hidden;
+    position: relative;
+}
+.animate-img{
+    position: absolute;
+    /* left: -100%; */
+    animation: slide-in 1s ease;
+}
+@keyframes slide-in{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
 }
 
 /* faq */
