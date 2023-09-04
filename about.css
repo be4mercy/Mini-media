@@ -24,6 +24,9 @@
     border-radius: 1rem;
     text-align: center;
     transition:var(--transition);
+     position: relative;
+    overflow: hidden;
+
 }
 .achivements__card:hover{
     background:var(--color-bg2) ;
