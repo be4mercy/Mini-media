@@ -5,7 +5,7 @@
 }
 .about__achivements-container{
     display: grid;
-/*     grid-template-columns: 40% 60%; */
+/*     grid-template-columns:1fr, 1fr */
     gap: 5rem;
 }
 
