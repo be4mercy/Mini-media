@@ -14,9 +14,6 @@
 }
 
 .achievments__cards{
- margin-top: 10rem;
-    margin-bottom: 10rem;
-    width:50rem;
    display: grid;
    grid-template-columns: repeat(3,1fr);
    gap: 2rem;
