@@ -14,9 +14,9 @@
 }
 
 .achievments__cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 2rem;
 }
 .achivements__card{
     background:var(--color-bg1);
